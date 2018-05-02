@@ -1,0 +1,67 @@
+
+header{
+	color: green;
+	border: 2px solid;
+	border-bottom-color: red;
+	border-radius: 10px;
+	height: 100px;
+	width: 100%;
+	background-color: tomato;
+	word-spacing: 5px;
+    text-align: center;
+    text-shadow: white;
+    animation: myStyles 5s infinite;
+}
+
+@keyframes myStyles{
+	1%{
+	    
+		color: green;
+	}
+	40%{
+		color: lightgreen;
+	}
+	90%{
+		
+		color: green;
+	}
+}
+footer{
+	border: 2px solid violet;
+	border-radius: 10px;
+	text-align: center;
+	border-top-color: dodgerBlue;
+	width: 99%;
+	height: 100px;
+	background-color: mediumSeaGreen;
+	position: absolute;
+	bottom: 0px;
+}
+.login{
+	border: 2px solid;
+	width: 500px;
+	height: 300px;
+	margin: 40px 0px 0px 30%;
+	background-color: grey;
+	overflow: auto;
+}
+.loginhead{
+
+	text-align: center;
+	color: pink;
+}
+.loginInside{
+	margin-left: 50px;
+	color: white;
+}
+button,.ab:link{
+	color: white;
+	background-color: red;
+	padding: 14px 25px;
+	
+	text-decoration: none;
+	display: inline-block;
+}
+.ab:hover{
+	background-color: blue;
+}
